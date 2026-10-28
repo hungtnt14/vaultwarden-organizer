@@ -1,0 +1,16 @@
+services:
+  vw-organizer:
+    build: .
+    image: vw-organizer:local
+    container_name: vw-organizer
+    restart: unless-stopped
+    # Mở cho mọi interface. Chỉ muốn dùng trên máy này: đổi thành "127.0.0.1:8088:80".
+    ports:
+      - "0.0.0.0:8088:80"
+    read_only: true
+    tmpfs:
+      - /var/cache/nginx
+      - /var/run
+      - /tmp
+    security_opt:
+      - no-new-privileges:true

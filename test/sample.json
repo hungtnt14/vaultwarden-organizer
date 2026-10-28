@@ -1,0 +1,856 @@
+{
+  "encrypted": false,
+  "collections": [
+    {
+      "id": "e4b1167d-5ef3-4f31-8144-da08be3d2bbc",
+      "organizationId": "79be482b-1f5b-4005-a1e6-f1233bb46d16",
+      "name": "Acme",
+      "externalId": null
+    },
+    {
+      "id": "8133c07a-d0e8-4057-b9e4-ca02a38b8aa2",
+      "organizationId": "79be482b-1f5b-4005-a1e6-f1233bb46d16",
+      "name": "Acme/Site A",
+      "externalId": null
+    },
+    {
+      "id": "e0aba9cd-572e-4cf4-9de9-a6c993847261",
+      "organizationId": "79be482b-1f5b-4005-a1e6-f1233bb46d16",
+      "name": "Acme/Site A/Live",
+      "externalId": null
+    },
+    {
+      "id": "4907b8e4-0678-4e33-bf95-ce42f60ccce5",
+      "organizationId": "79be482b-1f5b-4005-a1e6-f1233bb46d16",
+      "name": "Acme/Site A/Live/Database",
+      "externalId": null
+    },
+    {
+      "id": "8d5940ad-7e5b-4868-bc91-7d1e831fe1df",
+      "organizationId": "79be482b-1f5b-4005-a1e6-f1233bb46d16",
+      "name": "Acme/Site A/Test",
+      "externalId": null
+    },
+    {
+      "id": "c0cf724c-cc06-46d7-9a6f-a2933f4cfcbe",
+      "organizationId": "79be482b-1f5b-4005-a1e6-f1233bb46d16",
+      "name": "Acme/Site B",
+      "externalId": null
+    },
+    {
+      "id": "d72521c8-0c29-4ff9-a414-3f1dc4cbed0d",
+      "organizationId": "79be482b-1f5b-4005-a1e6-f1233bb46d16",
+      "name": "Acme/Site B/Live",
+      "externalId": null
+    },
+    {
+      "id": "dc9dec17-b94c-4282-915b-9d28dbe68def",
+      "organizationId": "79be482b-1f5b-4005-a1e6-f1233bb46d16",
+      "name": "Acme/Misc",
+      "externalId": null
+    },
+    {
+      "id": "1b551e21-8fef-4474-8c90-be2028ea2570",
+      "organizationId": "79be482b-1f5b-4005-a1e6-f1233bb46d16",
+      "name": "Acme/Misc/Cloud",
+      "externalId": null
+    },
+    {
+      "id": "6223126a-3a9c-440f-bd35-60deb5bb8212",
+      "organizationId": "79be482b-1f5b-4005-a1e6-f1233bb46d16",
+      "name": "Acme/Logs/Alpha",
+      "externalId": null
+    }
+  ],
+  "items": [
+    {
+      "type": 2,
+      "name": "Demo Note 00",
+      "favorite": true,
+      "reprompt": 0,
+      "id": "18e0627f-f9dc-4478-98f4-45a9fcdcaaf5",
+      "collectionIds": [
+        "c0cf724c-cc06-46d7-9a6f-a2933f4cfcbe",
+        "e0aba9cd-572e-4cf4-9de9-a6c993847261"
+      ],
+      "organizationId": "79be482b-1f5b-4005-a1e6-f1233bb46d16",
+      "fields": [
+        {
+          "type": 0,
+          "name": "demo-ip",
+          "value": "192.0.2.0"
+        },
+        {
+          "type": 1,
+          "name": "demo-token",
+          "value": "fake-token"
+        }
+      ],
+      "passwordHistory": [],
+      "creationDate": "2026-01-01T00:00:00.000Z",
+      "revisionDate": "2026-01-01T00:00:00.000Z",
+      "secureNote": {
+        "type": 0
+      },
+      "notes": "demo note (fake data)"
+    },
+    {
+      "type": 1,
+      "name": "Demo Login 01",
+      "favorite": false,
+      "reprompt": 0,
+      "id": "2c70ded1-caa6-4c13-b028-edb49e08e561",
+      "collectionIds": [
+        "d72521c8-0c29-4ff9-a414-3f1dc4cbed0d"
+      ],
+      "organizationId": "79be482b-1f5b-4005-a1e6-f1233bb46d16",
+      "fields": [],
+      "passwordHistory": [],
+      "creationDate": "2026-01-01T00:00:00.000Z",
+      "revisionDate": "2026-01-01T00:00:00.000Z",
+      "login": {
+        "uris": [
+          {
+            "uri": "https://host1.example.test"
+          }
+        ],
+        "fido2Credentials": [],
+        "username": "demo-user1",
+        "password": "fake-pass-1"
+      }
+    },
+    {
+      "type": 1,
+      "name": "Demo Login 02",
+      "favorite": false,
+      "reprompt": 0,
+      "id": "d1b381dd-5711-4a13-abe5-d967f6f38033",
+      "collectionIds": [
+        "e4b1167d-5ef3-4f31-8144-da08be3d2bbc"
+      ],
+      "organizationId": "79be482b-1f5b-4005-a1e6-f1233bb46d16",
+      "fields": [],
+      "passwordHistory": [],
+      "creationDate": "2026-01-01T00:00:00.000Z",
+      "revisionDate": "2026-01-01T00:00:00.000Z",
+      "login": {
+        "uris": [],
+        "fido2Credentials": [],
+        "username": "demo-user2",
+        "password": "fake-pass-2"
+      }
+    },
+    {
+      "type": 1,
+      "name": "Demo Login 03",
+      "favorite": false,
+      "reprompt": 0,
+      "id": "52b85628-7c56-480e-b555-ebe0627515a6",
+      "collectionIds": [
+        "8133c07a-d0e8-4057-b9e4-ca02a38b8aa2"
+      ],
+      "organizationId": "79be482b-1f5b-4005-a1e6-f1233bb46d16",
+      "fields": [
+        {
+          "type": 0,
+          "name": "demo-ip",
+          "value": "192.0.2.3"
+        },
+        {
+          "type": 1,
+          "name": "demo-token",
+          "value": "fake-token"
+        }
+      ],
+      "passwordHistory": [],
+      "creationDate": "2026-01-01T00:00:00.000Z",
+      "revisionDate": "2026-01-01T00:00:00.000Z",
+      "login": {
+        "uris": [
+          {
+            "uri": "https://host3.example.test"
+          }
+        ],
+        "fido2Credentials": [],
+        "username": "demo-user3",
+        "password": "fake-pass-3"
+      }
+    },
+    {
+      "type": 1,
+      "name": "Demo Login 04",
+      "favorite": false,
+      "reprompt": 0,
+      "id": "f40e8a58-1fa1-486d-8986-0d8f6f6388fc",
+      "collectionIds": [
+        "1b551e21-8fef-4474-8c90-be2028ea2570"
+      ],
+      "organizationId": "79be482b-1f5b-4005-a1e6-f1233bb46d16",
+      "fields": [],
+      "passwordHistory": [],
+      "creationDate": "2026-01-01T00:00:00.000Z",
+      "revisionDate": "2026-01-01T00:00:00.000Z",
+      "login": {
+        "uris": [],
+        "fido2Credentials": [],
+        "username": "demo-user4",
+        "password": "fake-pass-4"
+      }
+    },
+    {
+      "type": 1,
+      "name": "Demo Login 05",
+      "favorite": false,
+      "reprompt": 0,
+      "id": "dc63f726-ee10-4957-966d-17cbb3055cc7",
+      "collectionIds": [
+        "8133c07a-d0e8-4057-b9e4-ca02a38b8aa2"
+      ],
+      "organizationId": "79be482b-1f5b-4005-a1e6-f1233bb46d16",
+      "fields": [],
+      "passwordHistory": [],
+      "creationDate": "2026-01-01T00:00:00.000Z",
+      "revisionDate": "2026-01-01T00:00:00.000Z",
+      "login": {
+        "uris": [
+          {
+            "uri": "https://host5.example.test"
+          }
+        ],
+        "fido2Credentials": [],
+        "username": "demo-user5",
+        "password": "fake-pass-5"
+      }
+    },
+    {
+      "type": 1,
+      "name": "Demo Login 06",
+      "favorite": false,
+      "reprompt": 0,
+      "id": "7715a797-c94e-4bba-8baa-45adf0a8e684",
+      "collectionIds": [
+        "c0cf724c-cc06-46d7-9a6f-a2933f4cfcbe"
+      ],
+      "organizationId": "79be482b-1f5b-4005-a1e6-f1233bb46d16",
+      "fields": [
+        {
+          "type": 0,
+          "name": "demo-ip",
+          "value": "192.0.2.6"
+        },
+        {
+          "type": 1,
+          "name": "demo-token",
+          "value": "fake-token"
+        }
+      ],
+      "passwordHistory": [],
+      "creationDate": "2026-01-01T00:00:00.000Z",
+      "revisionDate": "2026-01-01T00:00:00.000Z",
+      "login": {
+        "uris": [],
+        "fido2Credentials": [],
+        "username": "demo-user6",
+        "password": "fake-pass-6"
+      }
+    },
+    {
+      "type": 1,
+      "name": "Demo Login 07",
+      "favorite": false,
+      "reprompt": 0,
+      "id": "b02bf7fa-106d-430c-9370-eeefbbe5c4f1",
+      "collectionIds": [
+        "6223126a-3a9c-440f-bd35-60deb5bb8212",
+        "e4b1167d-5ef3-4f31-8144-da08be3d2bbc"
+      ],
+      "organizationId": "79be482b-1f5b-4005-a1e6-f1233bb46d16",
+      "fields": [],
+      "passwordHistory": [],
+      "creationDate": "2026-01-01T00:00:00.000Z",
+      "revisionDate": "2026-01-01T00:00:00.000Z",
+      "login": {
+        "uris": [
+          {
+            "uri": "https://host7.example.test"
+          }
+        ],
+        "fido2Credentials": [],
+        "username": "demo-user7",
+        "password": "fake-pass-7"
+      }
+    },
+    {
+      "type": 1,
+      "name": "Demo Login 08",
+      "favorite": false,
+      "reprompt": 0,
+      "id": "ee5184c4-f672-4139-8a58-b2629f26d066",
+      "collectionIds": [
+        "1b551e21-8fef-4474-8c90-be2028ea2570"
+      ],
+      "organizationId": "79be482b-1f5b-4005-a1e6-f1233bb46d16",
+      "fields": [],
+      "passwordHistory": [],
+      "creationDate": "2026-01-01T00:00:00.000Z",
+      "revisionDate": "2026-01-01T00:00:00.000Z",
+      "login": {
+        "uris": [],
+        "fido2Credentials": [],
+        "username": "demo-user8",
+        "password": "fake-pass-8"
+      }
+    },
+    {
+      "type": 2,
+      "name": "Demo Note 09",
+      "favorite": false,
+      "reprompt": 0,
+      "id": "ba143e98-1929-47f4-8b8c-6096fc387c38",
+      "collectionIds": [
+        "4907b8e4-0678-4e33-bf95-ce42f60ccce5"
+      ],
+      "organizationId": "79be482b-1f5b-4005-a1e6-f1233bb46d16",
+      "fields": [
+        {
+          "type": 0,
+          "name": "demo-ip",
+          "value": "192.0.2.9"
+        },
+        {
+          "type": 1,
+          "name": "demo-token",
+          "value": "fake-token"
+        }
+      ],
+      "passwordHistory": [],
+      "creationDate": "2026-01-01T00:00:00.000Z",
+      "revisionDate": "2026-01-01T00:00:00.000Z",
+      "secureNote": {
+        "type": 0
+      },
+      "notes": "demo note (fake data)"
+    },
+    {
+      "type": 1,
+      "name": "Demo Login 10",
+      "favorite": false,
+      "reprompt": 0,
+      "id": "44ebb856-66b0-407d-843c-2de6ac82b223",
+      "collectionIds": [
+        "e4b1167d-5ef3-4f31-8144-da08be3d2bbc"
+      ],
+      "organizationId": "79be482b-1f5b-4005-a1e6-f1233bb46d16",
+      "fields": [],
+      "passwordHistory": [],
+      "creationDate": "2026-01-01T00:00:00.000Z",
+      "revisionDate": "2026-01-01T00:00:00.000Z",
+      "login": {
+        "uris": [],
+        "fido2Credentials": [],
+        "username": "demo-user10",
+        "password": "fake-pass-10"
+      }
+    },
+    {
+      "type": 1,
+      "name": "Demo Login 11",
+      "favorite": true,
+      "reprompt": 0,
+      "id": "1d666d31-54af-4fbb-a393-312c00edd47f",
+      "collectionIds": [
+        "8133c07a-d0e8-4057-b9e4-ca02a38b8aa2"
+      ],
+      "organizationId": "79be482b-1f5b-4005-a1e6-f1233bb46d16",
+      "fields": [],
+      "passwordHistory": [],
+      "creationDate": "2026-01-01T00:00:00.000Z",
+      "revisionDate": "2026-01-01T00:00:00.000Z",
+      "login": {
+        "uris": [
+          {
+            "uri": "https://host11.example.test"
+          }
+        ],
+        "fido2Credentials": [],
+        "username": "demo-user11",
+        "password": "fake-pass-11"
+      }
+    },
+    {
+      "type": 1,
+      "name": "Demo Login 12",
+      "favorite": false,
+      "reprompt": 0,
+      "id": "5c52f888-bd59-4704-a918-97e0d7b16694",
+      "collectionIds": [
+        "d72521c8-0c29-4ff9-a414-3f1dc4cbed0d"
+      ],
+      "organizationId": "79be482b-1f5b-4005-a1e6-f1233bb46d16",
+      "fields": [
+        {
+          "type": 0,
+          "name": "demo-ip",
+          "value": "192.0.2.12"
+        },
+        {
+          "type": 1,
+          "name": "demo-token",
+          "value": "fake-token"
+        }
+      ],
+      "passwordHistory": [],
+      "creationDate": "2026-01-01T00:00:00.000Z",
+      "revisionDate": "2026-01-01T00:00:00.000Z",
+      "login": {
+        "uris": [],
+        "fido2Credentials": [],
+        "username": "demo-user12",
+        "password": "fake-pass-12"
+      }
+    },
+    {
+      "type": 1,
+      "name": "Demo Login 13",
+      "favorite": false,
+      "reprompt": 0,
+      "id": "9d67d039-3cd8-4438-8872-ecb207064da7",
+      "collectionIds": [
+        "d72521c8-0c29-4ff9-a414-3f1dc4cbed0d"
+      ],
+      "organizationId": "79be482b-1f5b-4005-a1e6-f1233bb46d16",
+      "fields": [],
+      "passwordHistory": [],
+      "creationDate": "2026-01-01T00:00:00.000Z",
+      "revisionDate": "2026-01-01T00:00:00.000Z",
+      "login": {
+        "uris": [
+          {
+            "uri": "https://host13.example.test"
+          }
+        ],
+        "fido2Credentials": [],
+        "username": "demo-user13",
+        "password": "fake-pass-13"
+      }
+    },
+    {
+      "type": 1,
+      "name": "Demo Login 14",
+      "favorite": false,
+      "reprompt": 0,
+      "id": "42b47c35-33a1-4527-a183-007b5be1f38d",
+      "collectionIds": [
+        "8133c07a-d0e8-4057-b9e4-ca02a38b8aa2",
+        "4907b8e4-0678-4e33-bf95-ce42f60ccce5"
+      ],
+      "organizationId": "79be482b-1f5b-4005-a1e6-f1233bb46d16",
+      "fields": [],
+      "passwordHistory": [],
+      "creationDate": "2026-01-01T00:00:00.000Z",
+      "revisionDate": "2026-01-01T00:00:00.000Z",
+      "login": {
+        "uris": [],
+        "fido2Credentials": [],
+        "username": "demo-user14",
+        "password": "fake-pass-14"
+      }
+    },
+    {
+      "type": 1,
+      "name": "Demo Login 15",
+      "favorite": false,
+      "reprompt": 0,
+      "id": "3bf6691d-4018-49f0-91e7-53459ee4c541",
+      "collectionIds": [
+        "8133c07a-d0e8-4057-b9e4-ca02a38b8aa2"
+      ],
+      "organizationId": "79be482b-1f5b-4005-a1e6-f1233bb46d16",
+      "fields": [
+        {
+          "type": 0,
+          "name": "demo-ip",
+          "value": "192.0.2.15"
+        },
+        {
+          "type": 1,
+          "name": "demo-token",
+          "value": "fake-token"
+        }
+      ],
+      "passwordHistory": [],
+      "creationDate": "2026-01-01T00:00:00.000Z",
+      "revisionDate": "2026-01-01T00:00:00.000Z",
+      "login": {
+        "uris": [
+          {
+            "uri": "https://host15.example.test"
+          }
+        ],
+        "fido2Credentials": [],
+        "username": "demo-user15",
+        "password": "fake-pass-15"
+      }
+    },
+    {
+      "type": 1,
+      "name": "Demo Login 16",
+      "favorite": false,
+      "reprompt": 0,
+      "id": "408526ac-0bce-4365-b0d9-a392780ac101",
+      "collectionIds": [
+        "1b551e21-8fef-4474-8c90-be2028ea2570"
+      ],
+      "organizationId": "79be482b-1f5b-4005-a1e6-f1233bb46d16",
+      "fields": [],
+      "passwordHistory": [],
+      "creationDate": "2026-01-01T00:00:00.000Z",
+      "revisionDate": "2026-01-01T00:00:00.000Z",
+      "login": {
+        "uris": [],
+        "fido2Credentials": [],
+        "username": "demo-user16",
+        "password": "fake-pass-16"
+      }
+    },
+    {
+      "type": 1,
+      "name": "Demo Login 17",
+      "favorite": false,
+      "reprompt": 0,
+      "id": "f28f391e-4b02-4e79-85d3-ebf3efdbc9dc",
+      "collectionIds": [
+        "d72521c8-0c29-4ff9-a414-3f1dc4cbed0d"
+      ],
+      "organizationId": "79be482b-1f5b-4005-a1e6-f1233bb46d16",
+      "fields": [],
+      "passwordHistory": [],
+      "creationDate": "2026-01-01T00:00:00.000Z",
+      "revisionDate": "2026-01-01T00:00:00.000Z",
+      "login": {
+        "uris": [
+          {
+            "uri": "https://host17.example.test"
+          }
+        ],
+        "fido2Credentials": [],
+        "username": "demo-user17",
+        "password": "fake-pass-17"
+      }
+    },
+    {
+      "type": 2,
+      "name": "Demo Note 18",
+      "favorite": false,
+      "reprompt": 0,
+      "id": "01f63675-b1aa-4b77-951c-48d07af00d55",
+      "collectionIds": [
+        "e4b1167d-5ef3-4f31-8144-da08be3d2bbc"
+      ],
+      "organizationId": "79be482b-1f5b-4005-a1e6-f1233bb46d16",
+      "fields": [
+        {
+          "type": 0,
+          "name": "demo-ip",
+          "value": "192.0.2.18"
+        },
+        {
+          "type": 1,
+          "name": "demo-token",
+          "value": "fake-token"
+        }
+      ],
+      "passwordHistory": [],
+      "creationDate": "2026-01-01T00:00:00.000Z",
+      "revisionDate": "2026-01-01T00:00:00.000Z",
+      "secureNote": {
+        "type": 0
+      },
+      "notes": "demo note (fake data)"
+    },
+    {
+      "type": 1,
+      "name": "Demo Login 19",
+      "favorite": false,
+      "reprompt": 0,
+      "id": "97b74c93-aa45-487e-a7ed-64b0c45ca139",
+      "collectionIds": [
+        "6223126a-3a9c-440f-bd35-60deb5bb8212"
+      ],
+      "organizationId": "79be482b-1f5b-4005-a1e6-f1233bb46d16",
+      "fields": [],
+      "passwordHistory": [],
+      "creationDate": "2026-01-01T00:00:00.000Z",
+      "revisionDate": "2026-01-01T00:00:00.000Z",
+      "login": {
+        "uris": [
+          {
+            "uri": "https://host19.example.test"
+          }
+        ],
+        "fido2Credentials": [],
+        "username": "demo-user19",
+        "password": "fake-pass-19"
+      }
+    },
+    {
+      "type": 1,
+      "name": "Demo Login 20",
+      "favorite": false,
+      "reprompt": 0,
+      "id": "6f77ccad-7103-4e39-b7a9-5a5fd04d7e5e",
+      "collectionIds": [
+        "8133c07a-d0e8-4057-b9e4-ca02a38b8aa2"
+      ],
+      "organizationId": "79be482b-1f5b-4005-a1e6-f1233bb46d16",
+      "fields": [],
+      "passwordHistory": [],
+      "creationDate": "2026-01-01T00:00:00.000Z",
+      "revisionDate": "2026-01-01T00:00:00.000Z",
+      "login": {
+        "uris": [],
+        "fido2Credentials": [],
+        "username": "demo-user20",
+        "password": "fake-pass-20"
+      }
+    },
+    {
+      "type": 1,
+      "name": "Demo Login 21",
+      "favorite": false,
+      "reprompt": 0,
+      "id": "e0dde75f-92c8-46b1-bfeb-23688379a35a",
+      "collectionIds": [
+        "4907b8e4-0678-4e33-bf95-ce42f60ccce5",
+        "e4b1167d-5ef3-4f31-8144-da08be3d2bbc"
+      ],
+      "organizationId": "79be482b-1f5b-4005-a1e6-f1233bb46d16",
+      "fields": [
+        {
+          "type": 0,
+          "name": "demo-ip",
+          "value": "192.0.2.21"
+        },
+        {
+          "type": 1,
+          "name": "demo-token",
+          "value": "fake-token"
+        }
+      ],
+      "passwordHistory": [],
+      "creationDate": "2026-01-01T00:00:00.000Z",
+      "revisionDate": "2026-01-01T00:00:00.000Z",
+      "login": {
+        "uris": [
+          {
+            "uri": "https://host21.example.test"
+          }
+        ],
+        "fido2Credentials": [],
+        "username": "demo-user21",
+        "password": "fake-pass-21"
+      }
+    },
+    {
+      "type": 1,
+      "name": "Demo Login 22",
+      "favorite": true,
+      "reprompt": 0,
+      "id": "a7980a5e-0e6e-4e06-bffe-1fc254673e28",
+      "collectionIds": [
+        "6223126a-3a9c-440f-bd35-60deb5bb8212"
+      ],
+      "organizationId": "79be482b-1f5b-4005-a1e6-f1233bb46d16",
+      "fields": [],
+      "passwordHistory": [],
+      "creationDate": "2026-01-01T00:00:00.000Z",
+      "revisionDate": "2026-01-01T00:00:00.000Z",
+      "login": {
+        "uris": [],
+        "fido2Credentials": [],
+        "username": "demo-user22",
+        "password": "fake-pass-22"
+      }
+    },
+    {
+      "type": 1,
+      "name": "Demo Login 23",
+      "favorite": false,
+      "reprompt": 0,
+      "id": "ce225522-69f2-4867-844f-e1bf99f87190",
+      "collectionIds": [
+        "6223126a-3a9c-440f-bd35-60deb5bb8212"
+      ],
+      "organizationId": "79be482b-1f5b-4005-a1e6-f1233bb46d16",
+      "fields": [],
+      "passwordHistory": [],
+      "creationDate": "2026-01-01T00:00:00.000Z",
+      "revisionDate": "2026-01-01T00:00:00.000Z",
+      "login": {
+        "uris": [
+          {
+            "uri": "https://host23.example.test"
+          }
+        ],
+        "fido2Credentials": [],
+        "username": "demo-user23",
+        "password": "fake-pass-23"
+      }
+    },
+    {
+      "type": 1,
+      "name": "Demo Login 24",
+      "favorite": false,
+      "reprompt": 0,
+      "id": "1ea5d9e6-7d82-48e1-a278-ea2733d11b61",
+      "collectionIds": [
+        "d72521c8-0c29-4ff9-a414-3f1dc4cbed0d"
+      ],
+      "organizationId": "79be482b-1f5b-4005-a1e6-f1233bb46d16",
+      "fields": [
+        {
+          "type": 0,
+          "name": "demo-ip",
+          "value": "192.0.2.24"
+        },
+        {
+          "type": 1,
+          "name": "demo-token",
+          "value": "fake-token"
+        }
+      ],
+      "passwordHistory": [],
+      "creationDate": "2026-01-01T00:00:00.000Z",
+      "revisionDate": "2026-01-01T00:00:00.000Z",
+      "login": {
+        "uris": [],
+        "fido2Credentials": [],
+        "username": "demo-user24",
+        "password": "fake-pass-24"
+      }
+    },
+    {
+      "type": 1,
+      "name": "Demo Login 25",
+      "favorite": false,
+      "reprompt": 0,
+      "id": "50bc250b-c358-4dfb-ab48-647943b1f37f",
+      "collectionIds": [
+        "e4b1167d-5ef3-4f31-8144-da08be3d2bbc"
+      ],
+      "organizationId": "79be482b-1f5b-4005-a1e6-f1233bb46d16",
+      "fields": [],
+      "passwordHistory": [],
+      "creationDate": "2026-01-01T00:00:00.000Z",
+      "revisionDate": "2026-01-01T00:00:00.000Z",
+      "login": {
+        "uris": [
+          {
+            "uri": "https://host25.example.test"
+          }
+        ],
+        "fido2Credentials": [],
+        "username": "demo-user25",
+        "password": "fake-pass-25"
+      }
+    },
+    {
+      "type": 1,
+      "name": "Demo Login 26",
+      "favorite": false,
+      "reprompt": 0,
+      "id": "109eb968-48ac-4732-940d-bb7a303f842f",
+      "collectionIds": [
+        "4907b8e4-0678-4e33-bf95-ce42f60ccce5"
+      ],
+      "organizationId": "79be482b-1f5b-4005-a1e6-f1233bb46d16",
+      "fields": [],
+      "passwordHistory": [],
+      "creationDate": "2026-01-01T00:00:00.000Z",
+      "revisionDate": "2026-01-01T00:00:00.000Z",
+      "login": {
+        "uris": [],
+        "fido2Credentials": [],
+        "username": "demo-user26",
+        "password": "fake-pass-26"
+      }
+    },
+    {
+      "type": 2,
+      "name": "Demo Note 27",
+      "favorite": false,
+      "reprompt": 0,
+      "id": "a3199d53-582f-4df1-8a89-0b5f1e74e05f",
+      "collectionIds": [
+        "e4b1167d-5ef3-4f31-8144-da08be3d2bbc"
+      ],
+      "organizationId": "79be482b-1f5b-4005-a1e6-f1233bb46d16",
+      "fields": [
+        {
+          "type": 0,
+          "name": "demo-ip",
+          "value": "192.0.2.27"
+        },
+        {
+          "type": 1,
+          "name": "demo-token",
+          "value": "fake-token"
+        }
+      ],
+      "passwordHistory": [],
+      "creationDate": "2026-01-01T00:00:00.000Z",
+      "revisionDate": "2026-01-01T00:00:00.000Z",
+      "secureNote": {
+        "type": 0
+      },
+      "notes": "demo note (fake data)"
+    },
+    {
+      "type": 1,
+      "name": "Demo Login 28",
+      "favorite": false,
+      "reprompt": 0,
+      "id": "bddc6cec-8046-4183-b849-ebe6d3721ed4",
+      "collectionIds": [
+        "1b551e21-8fef-4474-8c90-be2028ea2570",
+        "e0aba9cd-572e-4cf4-9de9-a6c993847261"
+      ],
+      "organizationId": "79be482b-1f5b-4005-a1e6-f1233bb46d16",
+      "fields": [],
+      "passwordHistory": [],
+      "creationDate": "2026-01-01T00:00:00.000Z",
+      "revisionDate": "2026-01-01T00:00:00.000Z",
+      "login": {
+        "uris": [],
+        "fido2Credentials": [],
+        "username": "demo-user28",
+        "password": "fake-pass-28"
+      }
+    },
+    {
+      "type": 1,
+      "name": "Demo Login 29",
+      "favorite": false,
+      "reprompt": 0,
+      "id": "f1829f89-1080-40ab-89b0-e7807f166b44",
+      "collectionIds": [
+        "8d5940ad-7e5b-4868-bc91-7d1e831fe1df"
+      ],
+      "organizationId": "79be482b-1f5b-4005-a1e6-f1233bb46d16",
+      "fields": [],
+      "passwordHistory": [],
+      "creationDate": "2026-01-01T00:00:00.000Z",
+      "revisionDate": "2026-01-01T00:00:00.000Z",
+      "login": {
+        "uris": [
+          {
+            "uri": "https://host29.example.test"
+          }
+        ],
+        "fido2Credentials": [],
+        "username": "demo-user29",
+        "password": "fake-pass-29"
+      }
+    }
+  ]
+}

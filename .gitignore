@@ -1,0 +1,3 @@
+# Never commit vault exports (they contain plaintext passwords)
+*.json
+!test/sample.json
